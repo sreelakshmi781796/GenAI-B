@@ -6,8 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.neural_network import MLPClassifier
 
 # Load the dataset
-data = pd.read_csv('/Users/rams/ml-toy/spam.csv', encoding='latin-1')
-
+data = pd.read_csv("spam.csv", encoding="latin-1")
 # Drop unnecessary columns
 data = data[['v1', 'v2']]
 
