@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+notebook
+ipykernel
+openai
+langchain
+langchain-community
+langchain-openai
+transformers
+sentence-transformers
