@@ -5,9 +5,9 @@ from sklearn.neural_network import MLPClassifier
 from sentence_transformers import SentenceTransformer
 
 # Load and prepare the dataset
-data = pd.read_csv('/Users/rams/ml-toy/spam.csv', encoding='latin-1')
-data = data[['v1', 'v2']]
-data.columns = ['label', 'message']
+data = pd.read_csv("spam.csv", encoding="latin-1")
+data = data[["v1", "v2"]]
+data.columns = ["label", "message"]
 data['label'] = data['label'].map({'ham': 0, 'spam': 1})
 
 # Split into train and test sets
