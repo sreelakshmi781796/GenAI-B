@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStream
 import torch
 import threading
 
-def get_llama_completion(prompt, model_name="meta-llama/Llama-3.1-8B-Instruct", max_tokens=500, temperature=0.7):
+def get_llama_completion(prompt, model_name="Qwen/Qwen2.5-0.5B-Instruct", max_tokens=120, temperature=0.7):
     """
     Streams text completion from Meta's LLaMA 3.2 3B model and measures tokens per second.
 
